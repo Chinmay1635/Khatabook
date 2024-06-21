@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khatabook | Create</title>
+    <link rel="stylesheet" href="/stylesheets/createnew.css">
+</head>
+<body>
+    <div id="main">
+            <!-- navbar -->
+            <nav>
+                <div id="left">
+                    <a href="http://localhost:3000/"><img src="/images/logo.png" alt=""></a>
+                    <div id="title">Today's <em>saving</em> is tommarow's <em>earning</em></div>
+                </div>
+                <div id="right">
+                    <a href="http://localhost:3000/">Home</a>
+                </div>
+            </nav>
+            <h3>Create new expense</h3>
+            <form action="http://localhost:3000/create" method="post">
+                <input type="text" name="title" id="title2" placeholder="Enter Your Title">
+                <textarea name="expense" id="new-expense" cols="20" rows="10" ></textarea>
+                <input class="btn" type="submit" value="Create Expense">
+            </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/fonts/Gilroy-Regular.ttf);
+}
+
+html,body{
+width:100%;
+height:100%;
+overflow-x: hidden;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: gilroy;
+}
+
+#main{
+    width: 100%;
+    padding: 0vmax 3vmax;
+}
+nav{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left img{
+    width: 5vmax;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.4vmax;
+}
+#title{
+    font-weight: 800;
+    padding: 1vmax 0;
+}
+form{
+    padding: 1.5vmax 0vmax;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 2.5vmax;
+}
+
+
+#new-expense,#title2{
+    border: 2px solid #0185FF;
+    border-radius: 0.5vmax;
+    background-color: rgba(225, 219, 219, 0.475);
+    font-size: 1.5vmax;
+    padding: 1vmax;
+}
+.btn{
+    width: 10vmax;
+    padding: 0.5vmax 1vmax;
+    background-color:#0185FF;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 100px;
+    cursor: pointer;
+}

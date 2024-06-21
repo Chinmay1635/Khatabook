@@ -1,0 +1,137 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/fonts/Gilroy-Regular.ttf);
+}
+
+html,body{
+width:100%;
+height:100%;
+overflow-x: hidden;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: gilroy;
+}
+
+#cover{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(153, 153, 153, 0.607);
+    opacity: 0;
+    scale: 0;
+}
+#main{
+    width: 100%;
+}
+#delete-alert{
+    width: 30vw;
+    height: 20vmin;
+    padding: 1vmax 3vmax;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: #0185FF solid 2px ;
+    border-radius: 10px;
+    top: 40%;
+    left: 36%;
+    scale: 0;
+}
+#delete-alert h3{
+    font-size: 1.6vmax;
+    padding: 0 0 1vmax 0;
+}
+#yes{
+    padding: 0.4vw 1.5vw;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    font-weight: 600;
+}
+#no{
+    padding: 0.4vw 1.5vw;
+    background-color: rgb(138, 135, 135);
+    color: white;
+    border-radius: 100px;
+    font-weight: 600;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    padding: 0vmax 3vmax;
+}
+nav{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left img{
+    width: 5vmax;
+}
+#right{
+    display: flex;
+    gap: 2vmax;
+    
+}
+a{
+    text-decoration: none;
+}
+#right a{
+    color: black;
+    font-weight: 700;
+    font-size: 1.4vmax;
+}
+#title{
+    font-weight: 800;
+}
+#expenses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vmax 0;
+}
+.btn{
+    width: 13vmax;
+    padding: 0.5vmax 1.2vmax;
+    background-color:#0185FF;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 100px;
+}
+#data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vmax;
+}
+.data{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax 1.5vmax;
+    border-radius: 10px;
+    background-color: #0185FF;
+    color: white;
+}
+.data a i{
+    font-weight: 200;
+    font-size: 20px;
+}
+.data h3{
+    font-size: 1.4vmax;
+    color: white;
+}
+#right{
+    display: flex;
+    gap: 2vmax;
+    align-items: center;
+}
+.data #right a{
+    font-size: 1.2vmax;
+    color: white;
+}

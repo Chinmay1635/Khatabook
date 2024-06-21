@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khatabook | Edit</title>
+    <link rel="stylesheet" href="/stylesheets/edit.css">
+</head>
+<body>
+    <div id="main">
+                <!-- navbar -->
+                <nav>
+                    <div id="left">
+                        <a href="http://localhost:3000/"><img src="/images/logo.png" alt=""></a>
+                        <div id="title">Today's <em>saving</em> is tommarow's <em>earning</em></div>
+                    </div>
+                    <div id="right">
+                        <a href="http://localhost:3000/">Home</a>
+                        <a href="http://localhost:3000/createnew">Create new Expenses</a>
+                    </div>
+                </nav>
+
+                <form action="/update/<%= filename %>" method="post">
+                    <textarea name="filedata" id="filedata" cols="20" rows="10"><%=data%></textarea>
+                    <input type="submit" class="btn" value="Edit">
+                </form>
+</body>
+</html>
